@@ -98,8 +98,8 @@ Password: tesing
 or the boolean tautology:
 
 ```
-Username: admin'#
-Password: a
+Username: ' OR '1'='1
+Password: ' OR '1'='1
 ```
 
 This logs the attacker in as the **first user in the table** without knowing any valid credentials.
