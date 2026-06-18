@@ -18,6 +18,7 @@ A custom-built, framework-free PHP MVC application designed as a **safe, self-ho
 [Installation](#-installation--setup) •
 [Exploitation Guide](#-exploitation-walkthroughs) •
 [Disclaimer](#%EF%B8%8F-disclaimer--legal-notice)
+
 ![GhostDir Demo](sql.png)
 </div>
 
