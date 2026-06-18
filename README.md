@@ -432,13 +432,7 @@ Contributions that **extend the lab's educational value** are welcome — for ex
 
 Please open an issue or pull request describing your proposed addition.
 
----
 
-## 📄 License
-
-This project is licensed under the **MIT License**. Feel free to use it for personal study, classroom training, or CTF events — see the [LICENSE](LICENSE) file for details (or add one matching your preferred terms before publishing).
-
----
 
 <div align="center">
 
