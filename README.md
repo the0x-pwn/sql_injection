@@ -279,7 +279,7 @@ HTML Response
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/sql_injection_lab.git
+git clone https://github.com/the0x-pwn/sql_injection.git
 cd sql_injection_lab
 ```
 
