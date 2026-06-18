@@ -91,8 +91,8 @@ This single endpoint is enough to dump the entire `users` table (usernames + pla
 **Why it matters:** because both `username` and `password` are wrapped in single quotes and concatenated directly, the classic **authentication bypass** payload works:
 
 ```
-Username: admin' -- 
-Password: anything
+Username: admin'#
+Password: tesing
 ```
 
 or the boolean tautology:
