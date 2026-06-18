@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <defs>
+    <radialGradient id="cbg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#1a0d20"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </radialGradient>
+    <linearGradient id="cg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="lens" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a3e"/>
+      <stop offset="40%" stop-color="#0d0d20"/>
+      <stop offset="70%" stop-color="#1a1a3e"/>
+      <stop offset="100%" stop-color="#111"/>
+    </radialGradient>
+  </defs>
+  <rect width="300" height="220" fill="url(#cbg)"/>
+  <ellipse cx="150" cy="120" rx="75" ry="55" fill="rgba(124,58,237,0.08)"/>
+  <!-- body -->
+  <rect x="60" y="70" width="180" height="120" rx="14" fill="#141420" stroke="#2a2a3e" stroke-width="1.5"/>
+  <!-- top bump (viewfinder) -->
+  <rect x="85" y="58" width="55" height="18" rx="6" fill="#1a1a2e" stroke="#2a2a3e" stroke-width="1"/>
+  <!-- shutter button -->
+  <circle cx="210" cy="67" r="12" fill="#1e1e30" stroke="url(#cg1)" stroke-width="1.5"/>
+  <circle cx="210" cy="67" r="7" fill="url(#cg1)" opacity="0.5"/>
+  <!-- lens outer ring -->
+  <circle cx="145" cy="135" r="52" fill="#0d0d18" stroke="#2a2a3e" stroke-width="2"/>
+  <circle cx="145" cy="135" r="46" fill="#111118" stroke="url(#cg1)" stroke-width="1.5"/>
+  <!-- lens inner -->
+  <circle cx="145" cy="135" r="36" fill="url(#lens)"/>
+  <circle cx="145" cy="135" r="26" fill="#050508"/>
+  <circle cx="145" cy="135" r="18" fill="#0a0a18"/>
+  <!-- lens reflection -->
+  <circle cx="145" cy="135" r="14" fill="none" stroke="#a78bfa" stroke-width="0.5" opacity="0.4"/>
+  <ellipse cx="138" cy="128" rx="5" ry="3" fill="white" opacity="0.08" transform="rotate(-30,138,128)"/>
+  <!-- flash -->
+  <rect x="68" y="78" width="18" height="12" rx="4" fill="#1e1e30" stroke="#2a2a3e" stroke-width="1"/>
+  <rect x="70" y="80" width="14" height="8" rx="3" fill="#7c3aed" opacity="0.3"/>
+  <!-- mode dial -->
+  <circle cx="230" cy="100" r="10" fill="#1e1e30" stroke="#2a2a3e" stroke-width="1"/>
+  <line x1="230" y1="93" x2="230" y2="97" stroke="url(#cg1)" stroke-width="1.5"/>
+</svg>

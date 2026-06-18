@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <defs>
+    <radialGradient id="chbg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0d1a10"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </radialGradient>
+    <linearGradient id="chg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="220" fill="url(#chbg)"/>
+  <!-- charging rings -->
+  <circle cx="150" cy="105" r="80" fill="none" stroke="rgba(124,58,237,0.05)" stroke-width="2"/>
+  <circle cx="150" cy="105" r="65" fill="none" stroke="rgba(124,58,237,0.08)" stroke-width="2" stroke-dasharray="8 4"/>
+  <circle cx="150" cy="105" r="50" fill="none" stroke="rgba(6,182,212,0.1)" stroke-width="1.5"/>
+  <!-- pad body -->
+  <ellipse cx="150" cy="130" rx="80" ry="12" fill="rgba(0,0,0,0.3)"/>
+  <rect x="90" y="70" width="120" height="55" rx="28" fill="#141420" stroke="#2a2a3e" stroke-width="2"/>
+  <!-- coil indicator -->
+  <circle cx="150" cy="97" r="28" fill="#0d0d18" stroke="url(#chg1)" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <circle cx="150" cy="97" r="20" fill="#111118" stroke="#2a2a3e" stroke-width="1"/>
+  <circle cx="150" cy="97" r="12" fill="#141420"/>
+  <!-- lightning bolt -->
+  <path d="M 154 84 L 147 97 L 153 97 L 146 110 L 158 94 L 151 94 Z" fill="url(#chg1)"/>
+  <!-- LED indicators -->
+  <circle cx="122" cy="114" r="4" fill="#7c3aed" opacity="0.9"/>
+  <circle cx="134" cy="114" r="4" fill="#7c3aed" opacity="0.7"/>
+  <circle cx="146" cy="114" r="4" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="158" cy="114" r="4" fill="#2a2a3e"/>
+  <circle cx="170" cy="114" r="4" fill="#2a2a3e"/>
+  <!-- cable -->
+  <path d="M 150 125 Q 150 155 140 165 Q 130 175 130 185" stroke="#2a2a3e" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 150 125 Q 150 155 140 165 Q 130 175 130 185" stroke="url(#chg1)" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <!-- plug -->
+  <rect x="122" y="183" width="16" height="8" rx="3" fill="#1e1e30" stroke="url(#chg1)" stroke-width="1"/>
+</svg>
